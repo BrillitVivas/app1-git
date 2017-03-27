@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<widget xmlns ="http://www.w3.org/ns/widgets"
+   xmlns:gap ="http://phonegap.com/ns/1.0"
+   id = "com.phonegap.example1"
+   version = "1.0.0">
+   
+   <name> app1 DATOSALUMNOS </name>
+   
+   <description>
+     Aplicacion que muestra los DATOS del alumno 
+	 </description>
+	 
+	  <author href = "https://build.phonegab.com" email="bri.vivas20@gmail.com">
+	    Brillit Vivas 4 H 
+		</author>
+		
+		<!--Personaliza la aplicacion y plataforma -->
+		<preference name="orientation"    value="default"/>
+		<!-- <preference name="orientation"  value="portrait"/>
+		<preference name="orientation"   value="landscape"/>-->
+		<preference name="target-device"  values="universal"/>
+		<preference name="fullscreen"   value="true"/>
+		<preference name="android-installLocation"  value ="auto"/>
+		<preference name="permissions" value="INTERNET" />
+		
+		<!--plugins-->
+		<!--core plugins-->
+		<plugin name="cordova-plugin-device"  spec= "~ 1.1.4"/>
+		<plugin name="cordova-plugin-vibration"  spec="~2.1.3"/>
+		<plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
+		
+		 <!-- <plugin name ="cordova-plugin-geolocation"  source="npm"/>-->
+	   <!--Third party plugins-->
+	   
+	   <!--Colocar icono app-->
+	   
+	   <icon src="res/android/mdpi.png"/>
+	   
+	   </widget>
+	   <div>
+	   <img src = "imagenes/foto/Perfil.png" width="50%" height="50%></div>  
+	   </div>
+	   </div>
+	   <div>
+	   <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+	   <li class="ui-first-chid ui-last-child">
+	   <a href= "#Pagina1" class="ui-btn ui-btn-icon-rigth ui-icon-carat-r">
+	   <h2> Datos Generales</h2>
+	   <p> Se Muestra El Nombre </p>
+	   </a>
+	   </li>
+	   <li class="ui-first-child ui-last-chils">
+	   <a href="#Pagina2" class ="ui-btn ui-btn-icon-right ui-icon-carat-r">
+	   <h2> Fecha De Nacimiento dia, mes y año de nacimiento </p>
+	   </a>
+	   </li>
+	   <li class="ui-first-child ui-last-child">
+	   <a href ="#Pagina3" class="ui-btn ui-icon-rigth ui-icon-carat-r">
+	   <h2> DOMICILIO </2>
+	   <p> Muestra el Domicilio</h2>
+	   <p> Muestra el domicilio alumno </p>
+	   </a>
+	   </li>
+	   <li class="ui-first-child ui-last-child">
+	   <a href="#paguina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+	   <h2> Deporte favorito </h2>
+	   <p> Muestra el deporte que mas le agrada al alumno </p>
+	   </a>
+	   </li>
+	   <li class="ui-first-child ui-last-child">
+	   <a href=""pagina5" class="ui-btn ui-btn-icon-right icon-carat-r">
+	   <h2>OTROS GUSTOS E INTERESES </h2>
+	   <p> Muestra otros gustos del alumno </p>
+	   </a>
+	   </li>
+	   </ul>
+	   </div>
+	   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+	   <div> 
+	   <img src="imagenes/persona_rosa.png" width="46" height ="46">
+	   </div>
+	   <div>
+	   <h4> Aplicacion Uno </h4>
+	   <h4>	Brillit Vivas Fierro </h4>
+	   </div>
+	   </div>
+	   </div>
+	   <div data-role="footer" data-theme="a" data-position="fixed">
+	   <h4> AAplicacion Uno, VFB</h4>
+	   </div>
+	   </div>
+	   </div>
+	   
+	   <div data-role="page"                                                                                                                                                                                                                                                                                                                                       
+	   
+	   
+	       
+	   
+	   
+	     
+		
+		
+		
+		
+			 
+
