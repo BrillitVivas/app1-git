@@ -32,67 +32,12 @@
 		
 		 <!-- <plugin name ="cordova-plugin-geolocation"  source="npm"/>-->
 	   <!--Third party plugins-->
-	   
 	   <!--Colocar icono app-->
 	   
 	   <icon src="res/android/mdpi.png"/>
 	   
 	   </widget>
-	   <div>
-	   <img src = "imagenes/foto/Perfil.png" width="50%" height="50%></div>  
-	   </div>
-	   </div>
-	   <div>
-	   <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
-	   <li class="ui-first-chid ui-last-child">
-	   <a href= "#Pagina1" class="ui-btn ui-btn-icon-rigth ui-icon-carat-r">
-	   <h2> Datos Generales</h2>
-	   <p> Se Muestra El Nombre </p>
-	   </a>
-	   </li>
-	   <li class="ui-first-child ui-last-chils">
-	   <a href="#Pagina2" class ="ui-btn ui-btn-icon-right ui-icon-carat-r">
-	   <h2> Fecha De Nacimiento dia, mes y año de nacimiento </p>
-	   </a>
-	   </li>
-	   <li class="ui-first-child ui-last-child">
-	   <a href ="#Pagina3" class="ui-btn ui-icon-rigth ui-icon-carat-r">
-	   <h2> DOMICILIO </2>
-	   <p> Muestra el Domicilio</h2>
-	   <p> Muestra el domicilio alumno </p>
-	   </a>
-	   </li>
-	   <li class="ui-first-child ui-last-child">
-	   <a href="#paguina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-	   <h2> Deporte favorito </h2>
-	   <p> Muestra el deporte que mas le agrada al alumno </p>
-	   </a>
-	   </li>
-	   <li class="ui-first-child ui-last-child">
-	   <a href=""pagina5" class="ui-btn ui-btn-icon-right icon-carat-r">
-	   <h2>OTROS GUSTOS E INTERESES </h2>
-	   <p> Muestra otros gustos del alumno </p>
-	   </a>
-	   </li>
-	   </ul>
-	   </div>
-	   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
-	   <div> 
-	   <img src="imagenes/persona_rosa.png" width="46" height ="46">
-	   </div>
-	   <div>
-	   <h4> Aplicacion Uno </h4>
-	   <h4>	Brillit Vivas Fierro </h4>
-	   </div>
-	   </div>
-	   </div>
-	   <div data-role="footer" data-theme="a" data-position="fixed">
-	   <h4> AAplicacion Uno, VFB</h4>
-	   </div>
-	   </div>
-	   </div>
-	   
-	   <div data-role="page"                                                                                                                                                                                                                                                                                                                                       
+	                                                                                                                                                                                                                                                                                                           
 	   
 	   
 	       
